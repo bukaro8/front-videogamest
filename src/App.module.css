@@ -1,0 +1,12 @@
+.App {
+  background-image: url(./assets/images/background.png);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
