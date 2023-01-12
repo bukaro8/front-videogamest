@@ -19,8 +19,8 @@ function App() {
       
       <Switch>
         <Route exact path='/' render={() => <LandingPage />} />
-<Navbar trigger={trigger} />
-        <Route exact path='/home' render={() => <Home />} />
+
+        <Route exact path='/home' render={() =>  <Navbar trigger={trigger} /> <Home />} />
         <Route
           exact
           path={`/videogames/form`}
